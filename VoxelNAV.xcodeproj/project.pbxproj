@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		843702292DC660DB00DC79DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8437020A2DC660D800DC79DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843702112DC660D800DC79DC;
+			remoteInfo = VoxelNAV;
+		};
+		843702332DC660DB00DC79DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8437020A2DC660D800DC79DC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843702112DC660D800DC79DC;
+			remoteInfo = VoxelNAV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		843702122DC660D800DC79DC /* VoxelNAV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoxelNAV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		843702282DC660DB00DC79DC /* VoxelNAVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoxelNAVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843702322DC660DB00DC79DC /* VoxelNAVUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoxelNAVUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8437023A2DC660DB00DC79DC /* Exceptions for "VoxelNAV" folder in "VoxelNAV" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 843702112DC660D800DC79DC /* VoxelNAV */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		843702142DC660D800DC79DC /* VoxelNAV */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8437023A2DC660DB00DC79DC /* Exceptions for "VoxelNAV" folder in "VoxelNAV" target */,
+			);
+			path = VoxelNAV;
+			sourceTree = "<group>";
+		};
+		8437022B2DC660DB00DC79DC /* VoxelNAVTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VoxelNAVTests;
+			sourceTree = "<group>";
+		};
+		843702352DC660DB00DC79DC /* VoxelNAVUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = VoxelNAVUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8437020F2DC660D800DC79DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843702252DC660DB00DC79DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8437022F2DC660DB00DC79DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		843702092DC660D800DC79DC = {
+			isa = PBXGroup;
+			children = (
+				843702142DC660D800DC79DC /* VoxelNAV */,
+				8437022B2DC660DB00DC79DC /* VoxelNAVTests */,
+				843702352DC660DB00DC79DC /* VoxelNAVUITests */,
+				843702132DC660D800DC79DC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		843702132DC660D800DC79DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843702122DC660D800DC79DC /* VoxelNAV.app */,
+				843702282DC660DB00DC79DC /* VoxelNAVTests.xctest */,
+				843702322DC660DB00DC79DC /* VoxelNAVUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843702112DC660D800DC79DC /* VoxelNAV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8437023B2DC660DB00DC79DC /* Build configuration list for PBXNativeTarget "VoxelNAV" */;
+			buildPhases = (
+				8437020E2DC660D800DC79DC /* Sources */,
+				8437020F2DC660D800DC79DC /* Frameworks */,
+				843702102DC660D800DC79DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				843702142DC660D800DC79DC /* VoxelNAV */,
+			);
+			name = VoxelNAV;
+			packageProductDependencies = (
+			);
+			productName = VoxelNAV;
+			productReference = 843702122DC660D800DC79DC /* VoxelNAV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		843702272DC660DB00DC79DC /* VoxelNAVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843702402DC660DB00DC79DC /* Build configuration list for PBXNativeTarget "VoxelNAVTests" */;
+			buildPhases = (
+				843702242DC660DB00DC79DC /* Sources */,
+				843702252DC660DB00DC79DC /* Frameworks */,
+				843702262DC660DB00DC79DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8437022A2DC660DB00DC79DC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8437022B2DC660DB00DC79DC /* VoxelNAVTests */,
+			);
+			name = VoxelNAVTests;
+			packageProductDependencies = (
+			);
+			productName = VoxelNAVTests;
+			productReference = 843702282DC660DB00DC79DC /* VoxelNAVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		843702312DC660DB00DC79DC /* VoxelNAVUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843702432DC660DB00DC79DC /* Build configuration list for PBXNativeTarget "VoxelNAVUITests" */;
+			buildPhases = (
+				8437022E2DC660DB00DC79DC /* Sources */,
+				8437022F2DC660DB00DC79DC /* Frameworks */,
+				843702302DC660DB00DC79DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843702342DC660DB00DC79DC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				843702352DC660DB00DC79DC /* VoxelNAVUITests */,
+			);
+			name = VoxelNAVUITests;
+			packageProductDependencies = (
+			);
+			productName = VoxelNAVUITests;
+			productReference = 843702322DC660DB00DC79DC /* VoxelNAVUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8437020A2DC660D800DC79DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					843702112DC660D800DC79DC = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					843702272DC660DB00DC79DC = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 843702112DC660D800DC79DC;
+					};
+					843702312DC660DB00DC79DC = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = 843702112DC660D800DC79DC;
+					};
+				};
+			};
+			buildConfigurationList = 8437020D2DC660D800DC79DC /* Build configuration list for PBXProject "VoxelNAV" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 843702092DC660D800DC79DC;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 843702132DC660D800DC79DC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843702112DC660D800DC79DC /* VoxelNAV */,
+				843702272DC660DB00DC79DC /* VoxelNAVTests */,
+				843702312DC660DB00DC79DC /* VoxelNAVUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		843702102DC660D800DC79DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843702262DC660DB00DC79DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843702302DC660DB00DC79DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8437020E2DC660D800DC79DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843702242DC660DB00DC79DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8437022E2DC660DB00DC79DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8437022A2DC660DB00DC79DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843702112DC660D800DC79DC /* VoxelNAV */;
+			targetProxy = 843702292DC660DB00DC79DC /* PBXContainerItemProxy */;
+		};
+		843702342DC660DB00DC79DC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843702112DC660D800DC79DC /* VoxelNAV */;
+			targetProxy = 843702332DC660DB00DC79DC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8437023C2DC660DB00DC79DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 958AD7W38P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoxelNAV/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcomany.VoxelNAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8437023D2DC660DB00DC79DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 958AD7W38P;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = VoxelNAV/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcomany.VoxelNAV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8437023E2DC660DB00DC79DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 958AD7W38P;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8437023F2DC660DB00DC79DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 958AD7W38P;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843702412DC660DB00DC79DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 958AD7W38P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcomany.VoxelNAVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoxelNAV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VoxelNAV";
+			};
+			name = Debug;
+		};
+		843702422DC660DB00DC79DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 958AD7W38P;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcomany.VoxelNAVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VoxelNAV.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/VoxelNAV";
+			};
+			name = Release;
+		};
+		843702442DC660DB00DC79DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 958AD7W38P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcomany.VoxelNAVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoxelNAV;
+			};
+			name = Debug;
+		};
+		843702452DC660DB00DC79DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 958AD7W38P;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yourcomany.VoxelNAVUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = VoxelNAV;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8437020D2DC660D800DC79DC /* Build configuration list for PBXProject "VoxelNAV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8437023E2DC660DB00DC79DC /* Debug */,
+				8437023F2DC660DB00DC79DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8437023B2DC660DB00DC79DC /* Build configuration list for PBXNativeTarget "VoxelNAV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8437023C2DC660DB00DC79DC /* Debug */,
+				8437023D2DC660DB00DC79DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843702402DC660DB00DC79DC /* Build configuration list for PBXNativeTarget "VoxelNAVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843702412DC660DB00DC79DC /* Debug */,
+				843702422DC660DB00DC79DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843702432DC660DB00DC79DC /* Build configuration list for PBXNativeTarget "VoxelNAVUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843702442DC660DB00DC79DC /* Debug */,
+				843702452DC660DB00DC79DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8437020A2DC660D800DC79DC /* Project object */;
+}
