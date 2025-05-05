@@ -34,6 +34,7 @@
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
+				Untitled.swift,
 			);
 			target = 843702112DC660D800DC79DC /* VoxelNAV */;
 		};
@@ -292,6 +293,7 @@
 				DEVELOPMENT_TEAM = 958AD7W38P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VoxelNAV/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera for AR terrain and obstacle detection.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,6 +322,7 @@
 				DEVELOPMENT_TEAM = 958AD7W38P;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = VoxelNAV/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app uses the camera for AR terrain and obstacle detection.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
